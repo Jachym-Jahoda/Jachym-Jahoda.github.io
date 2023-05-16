@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background: #001220;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+li, a, button{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+button{
+    padding: 10px 25px;
+    background-color: rgba(84,34,160,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(84,34,160,0.8);
+}
+
+header{
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 10%;
+    background: #151515;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    list-style: none ;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 0 4px 0 ;
+}
+
+.socials li{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.fillColor{
+    background: #5422a0;
+ }
+
+.preLayer{
+   aspect-ratio: 900/300;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+} 
+
+   .firstLayer{
+       background-image: url(/images/wave-firstLayer.svg);
+   }  
+   .secondLayer{
+       background-image: url(/images/wave-secondLayer.svg);
+   }  
+   .thirdLayer{
+       background-image: url(/images/wave-thirdLayer.svg);
+   }
+   .fourthLayer{
+       background-image: url(/images/wave-fourthLayer.svg);
+   }
+
+.logo{
+    cursor: pointer;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a {
+    transition: all 0.5s ease 0s;
+}
+
+.links li a:hover{
+    transition: all 0.5s ease 0s;
+    color: #5422a0;
+}
