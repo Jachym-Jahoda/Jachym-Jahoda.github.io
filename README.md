@@ -1,1 +1,0 @@
-# Jachym-Jahoda.github.io
