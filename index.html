@@ -34,7 +34,7 @@
     <div class="homeDiv">
         <h1>Hi, I'm Peter</h1>
         <h1>Open source developer</h1>
-        <a href="https://hub.docker.com/u/petrjahoda" target="_blank"><i class="fa-brands fa-docker"
+        <a href="https://cz.linkedin.com/in/petr-jahoda-99868121b/cs?trk=people-guest_people_search-card" target="_blank"><i class="fa-brands fa-linkedin"
                                                                          style="color:#151515; font-size: 30px; padding-right: 10px"></i></a>
         <a href="https://github.com/petrjahoda" target="_blank"><i class="fa-brands fa-github"
                                                                    style="color:#151515; font-size: 30px; padding-right: 10px"></i></a>
@@ -86,15 +86,16 @@
 <div class="preLayer thirdLayer"></div>
 
 <section class="fillColor" id="fifthLink">
-    <div><h1>Photos</h1></div>
+    <div class="photoDiv"><h1>Photos</h1>
+        <img id="warehouse" src="images/warehouseWorkers.jpeg" style="height: 400px; width: 400px; padding-right: 77px" onmouseover="enlargeWarehouse()"; onmouseout="resetWarehouse()">
+        <img id="cnc" src="images/cncWorker.jpeg" style="height: 400px; width: 400px" onmouseover="enlargeCnc()"; onmouseout="resetCnc()">
+    </div>
 </section>
 
 <footer>
     <div class="footer-socials">
         <ul class="socials">
-            <li><a href="https://github.com/petrjahoda" target="_blank"><i class="fa-brands fa-github"
-                                                                           style="color:#151515"></i></a></li>
-            <li><a href="https://petrjahoda.medium.com/" target="blank"><i class="fa-brands fa-medium"
+            <li><a href="https://github.com/Jachym-Jahoda" target="_blank"><i class="fa-brands fa-github"
                                                                            style="color:#151515"></i></a></li>
         </ul>
     </div>
@@ -102,5 +103,26 @@
         <p>Copyright &copy; 2023 | designed by Jachym Jahoda</p>
     </div>
 </footer>
+
+<script type="text/javascript">
+    warehouse = document.getElementById("warehouse");
+    cnc = document.getElementById("cnc");
+    function enlargeWarehouse() {
+        warehouse.style.transform = "scale(1.5)";
+        warehouse.style.transition = "transform 0.25s ease";
+    }
+    function resetWarehouse() {
+        warehouse.style.transform = "scale(1)";
+        warehouse.style.transition = "transform 0.25s ease";
+    }
+    function enlargeCnc() {
+        cnc.style.transform = "scale(1.5)";
+        cnc.style.transition = "transform 0.25s ease";
+    }
+    function resetCnc() {
+        cnc.style.transform = "scale(1)";
+        cnc.style.transition = "transform 0.25s ease";
+    }
+</script>
 </body>
 </html>
