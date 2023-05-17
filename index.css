@@ -16,7 +16,19 @@ li, a, button{
 }
 
 h1{
-    padding-top: 30px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.avatar{
+    margin-top: 100px;
+}
+.homeDiv{
+    padding-left: 50px;
+    margin-top: 130px;
 }
 
 button{
@@ -48,13 +60,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #5422a0;
 }
 
 section{
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center; 
+    flex-direction: row;
+    align-content: center;
     min-height: 400px;
     padding: 100px 20vw;
 }
@@ -62,7 +75,6 @@ section{
 .footer-socials{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
@@ -70,13 +82,13 @@ section{
 .socials{
     display: flex;
     list-style: none ;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin: 2px 0 4px 0 ;
 }
 
 .socials li{
-    margin: 0 10px;
+    margin: 2px 15px;
     text-decoration: none;
 }
 
@@ -93,16 +105,16 @@ section{
 } 
 
    .firstLayer{
-       background-image: url(/images/wave-firstLayer.svg);
+       background-image: url(images/wave-firstLayer.svg);
    }  
    .secondLayer{
-       background-image: url(/images/wave-secondLayer.svg);
+       background-image: url(images/wave-secondLayer.svg);
    }  
    .thirdLayer{
-       background-image: url(/images/wave-thirdLayer.svg);
+       background-image: url(images/wave-thirdLayer.svg);
    }
    .fourthLayer{
-       background-image: url(/images/wave-fourthLayer.svg);
+       background-image: url(images/wave-fourthLayer.svg);
    }
 
 .logo{
